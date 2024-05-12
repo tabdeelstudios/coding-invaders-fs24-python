@@ -1,0 +1,11 @@
+1. Create a virtual environment
+2. Activate the virtual environment
+3. Install django
+4. Create a new django project using django-admin startproject project_name
+5. Create a new app using django-admin startapp app_name
+6. Add the app to INSTALLED_APPS in settings.py (project folder)
+7. Create a view within the app (views.py - app folder)
+8. Create a urls.py file in the app folder
+9. Modify the urls.py file in the project folder
+10. Run migrations python3 manage.py makemigrations
+11. Run the server
